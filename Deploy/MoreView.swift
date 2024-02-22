@@ -2,7 +2,15 @@ import SwiftUI
 
 struct MoreView: View {
     var body: some View {
-        Text("More")
+        VStack(alignment: .leading) {
+            Text("More")
+                .font(.system(size: 24, weight: .bold))
+            
+            PremiumBanner()
+            
+            Spacer()
+        }
+        .padding()
     }
 }
 
