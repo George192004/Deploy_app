@@ -72,6 +72,7 @@ struct HomeView: View {
     
     
     struct PDFScannerPopupView: View {
+        @Environment(\.presentationMode) var presentationMode
         var body: some View {
             VStack(alignment: .leading) {
                 HStack() {
@@ -79,13 +80,18 @@ struct HomeView: View {
                         .font(.system(size: 20, weight: .bold))
                     
                     Spacer()
-                    Image(systemName: "xmark")
-                        .frame(width: 20, height: 20)
+                    
+                    Button {
+                        self.presentationMode.wrappedValue.dismiss()
+                    } label: {
+                        Image(systemName: "xmark")
+                            .frame(width: 20, height: 20)
+                            .foregroundColor(.black)
+                    }
+                    
                 }
                 .padding()
                 
-                
-            
                 
                 HStack(spacing: 16) {
                     Image(systemName: "camera")
