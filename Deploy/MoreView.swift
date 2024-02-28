@@ -102,13 +102,14 @@ struct PlatformDetailView: View {
     }
 }
 
+struct Platform: Hashable {
+    let name: String
+    let imageName: String
+}
 
 
 #Preview {
     MoreView()
 }
 
-struct Platform: Hashable {
-    let name: String
-    let imageName: String
-}
+
