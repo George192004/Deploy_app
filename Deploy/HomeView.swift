@@ -7,6 +7,7 @@ struct HomeView: View {
     ]
     
     @State private var isShowingPDFScannerPopup = false
+    @State private var isUpgradePlanPresented = false
     
     
     var body: some View {
@@ -14,6 +15,8 @@ struct HomeView: View {
             HStack {
                 Button {
                     print("tapped")
+                    isUpgradePlanPresented.toggle()
+     
                 } label: {
                     HStack(){
                         Text("🗓️ 7/14 Free day left")
@@ -34,7 +37,15 @@ struct HomeView: View {
                 }
             }
             .padding()
+//            .onTapGesture {
+//                isUpgradePlanPresented.toggle()
+//            }
+            .fullScreenCover(isPresented: $isUpgradePlanPresented, content: {
+                UpgradePlan(isPresented: $isUpgradePlanPresented)
+            })
             
+            
+
             VStack(spacing: 12) {
                 Text("Welcome")
                     .font(.system(size: 40, weight: .bold))

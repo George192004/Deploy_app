@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E044E642B8E80E700FC5E10 /* PremiumOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E044E632B8E80E700FC5E10 /* PremiumOffer.swift */; };
+		5E4E2A212B90894F00CC144D /* UpgradePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4E2A202B90894F00CC144D /* UpgradePlan.swift */; };
 		5E67262B2B86076E008E57AE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E67262A2B86076E008E57AE /* HomeView.swift */; };
 		5E67262D2B86077C008E57AE /* MyDocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E67262C2B86077C008E57AE /* MyDocumentsView.swift */; };
 		5E67262F2B860786008E57AE /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E67262E2B860786008E57AE /* MoreView.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		5E044E632B8E80E700FC5E10 /* PremiumOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumOffer.swift; sourceTree = "<group>"; };
+		5E4E2A202B90894F00CC144D /* UpgradePlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradePlan.swift; sourceTree = "<group>"; };
 		5E67262A2B86076E008E57AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5E67262C2B86077C008E57AE /* MyDocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDocumentsView.swift; sourceTree = "<group>"; };
 		5E67262E2B860786008E57AE /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				5E67262E2B860786008E57AE /* MoreView.swift */,
 				5E6726302B865CB6008E57AE /* PremiumBanner.swift */,
 				5E044E632B8E80E700FC5E10 /* PremiumOffer.swift */,
+				5E4E2A202B90894F00CC144D /* UpgradePlan.swift */,
 			);
 			path = Deploy;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				5E044E642B8E80E700FC5E10 /* PremiumOffer.swift in Sources */,
 				5E67262F2B860786008E57AE /* MoreView.swift in Sources */,
 				5E6726312B865CB6008E57AE /* PremiumBanner.swift in Sources */,
+				5E4E2A212B90894F00CC144D /* UpgradePlan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
